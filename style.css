@@ -347,7 +347,7 @@ body{
 
 
     .imagem01 h1 {
-        width: 90%;
+        width: 100%;
         padding: 2%;
         padding-left: 6%;
         margin-left: 10%;
@@ -419,7 +419,7 @@ body{
     }
 
     .QuemEu h1{
-        font-size: 120%;
+        font-size: 110%;
         margin-left: 14%;
         width: 80%;
     }
@@ -432,7 +432,7 @@ body{
 
     .QuemEu p{
         font-size: 110%;
-        margin-left: 20%;
+        margin-left: 18%;
         width: 80%;
     };
 
