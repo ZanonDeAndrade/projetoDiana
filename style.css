@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corPrimaria: #000;
+    --braco: #FFF;
+    --roxo: #4A4277;
+    --vermelho: #cf0808;
+    --verde: #00BF62;
+    --fonteP: 'Inter', Arial, sans-serif;
+}
+
+body{
+    background-color: var(--corPrimaria);
+    color: var(--braco);
+    font-family: var(--fonteP);
+}
+
+.logo img{
+    width: 30%;
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+    .video-wrapper {
+        position: relative;
+        width: fit-content;
+        margin: auto;
+    }
+    .video {
+        display: block;
+        border-radius: 5px;
+    }
+    .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        display: none; /* Esconda o botão inicialmente, pois o vídeo será reproduzido automaticamente */
+    }
+    .play-button::before {
+        content: '';
+        display: block;
+        border-style: solid;
+        border-width: 20px 0 20px 35px;
+        border-color: transparent transparent transparent white;
+    }
+
+.descVideo{
+    color: var(--braco);
+    font-family: var(--fonteP);
+    width: 70%;
+    margin-left: 15%;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.imagem01 {
+    position: relative;
+    margin-bottom: 15%;
+}
+
+.imagem01 .main-image {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+.imagem01 .logo {
+    position: absolute;
+    left: 14%; /* Ajuste esta propriedade conforme necessário */
+    top: 30%; /* Ajuste esta propriedade conforme necessário */
+    transform: translateY(-50%);
+    width: 30%;
+}
+
+.imagem01 h1{
+    position: absolute;
+    background-color: var(--roxo);
+    width: 40%;
+    border-radius: 8px;
+    margin-left: 8%;
+    cursor: pointer;
+    top: 90%;
+    padding: 1%;
+    padding-left: 1.5%;
+    color: var(--braco);
+}
+
+.imagem01 h1:hover {
+    box-shadow: 5px 5px 5px rgba(141, 136, 136, 0.5); /* Adiciona sombra suave */
+}
+
+
+.imagem01 p{
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    font-size: 20px;
+}
+
+.imagem01 .texto{
+    font-weight: bold;
+    left: 5%;
+}
+
+.imagem01 .oportunidade{
+    top: 65%;
+    left: 17%;
+}
+
+.imagem01 .valor{
+    top: 72%;
+    text-decoration: line-through;
+    color: var(--vermelho);
+    left: 23%;
+}
+
+.imagem01 .valor2{
+    top: 78%;
+    color: var(--verde);
+    font-weight: bold;
+    left: 19.5%;
+    font-size: 25px;
+}
+
+.print p{
+    font-size: 180%;
+    font-weight: bold;
+    margin-left: 20%;
+    border: 1px solid #fff;
+    width: 60%;
+    padding: 0.7%;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+
+
+.print .imagem1{
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 4.5%;
+}
+
+.print .imagem2{
+    width: 24.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.print .imagem3{
+    width: 21.15%;
+    margin-right: 2%;
+}
+
+.print .imagem4{
+    width: 18%;
+}
+
+.QuemEu{
+    position: relative;
+    margin-bottom: -2%;
+
+}
+
+.QuemEu h1{
+    margin-top: 15%;
+    margin-left: 28%;
+    margin-bottom: -5%;
+}
+
+.QuemEu img{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.QuemEu p{
+    width: 50%;
+    margin-top: -28%;
+    margin-bottom: 20%;
+    font-size: 180%;
+    margin-left: 9%;
+}
+
+
+.perguntas{
+    margin-left: 33%;
+    margin-bottom: 5%;
+    font-size: 180%;
+}
+
+
+
+
+
+
+
+.pergEres {
+    width: 50%;
+    margin: auto;
+}
+
+.question {
+    background-color: transparent; /* Cor de fundo da caixa */
+    padding: 2%;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5%; /* Espaço entre as caixas */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.answer {
+    display: none;
+    padding: 2%;
+    background-color: transparent; /* Cor de fundo da resposta */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: -5%; /* Para alinhar com a borda inferior da pergunta */
+    margin-bottom: 5%; /* Espaço inferior */
+}
+
+.arrow {
+    font-size: 1.2em;
+    margin-left: 10px; /* Espaço entre a pergunta e a seta */
+}
+
+.final img{
+    margin-top: 5%;
+    margin-left: 29%;
+    margin-bottom: 3%;
+}
+
+
+.botao h1 {
+    background-color: var(--roxo);
+    padding: 2%;
+    width: 60%;
+    cursor: pointer;
+    border-radius: 8px;
+    padding-left: 4%;
+    color: var(--braco);
+    margin-left: 20%;
+}
+
+
+.botao p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
