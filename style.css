@@ -145,7 +145,6 @@ body{
     font-size: 180%;
     font-weight: bold;
     margin-left: 20%;
-    border: 1px solid #fff;
     width: 60%;
     padding: 0.7%;
     padding-left: 2%;
@@ -313,16 +312,16 @@ body{
 @media screen and (max-width: 480px) {
     .logo img {
         width: 60%;
-        margin-left: 20%;
+        margin-left: 30%;
     }
 
     .video-wrapper video{
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 7.5%;
     }
 
     .descVideo {
-        width: 85%;
+        width: 100%;
         margin-left: 9%;
         font-size: 14px;
         margin-top: 2%;
@@ -331,60 +330,63 @@ body{
 
     .imagem01 .main-image {
         width: 70%;
-        margin-left: 30%;
+        margin-left: 40%;
         margin-top: -5%;
     }
 
     .imagem01 .logo {
         width: 50%;
-        left: 0%;
-        top: 50%;
+        left: 2%;
+        top: 55%;
     }
 
 
     .imagem01 h1 {
-        width: 70%;
+        width: 90%;
         padding: 2%;
-        padding-left: 4%;
-        margin-left: 16%;
+        padding-left: 6%;
+        margin-left: 13%;
         font-size: 18px;
         margin-top: 50%;
     }
 
     .imagem01 p {
-        left: 5%;
-        font-size: 16px;
+        width: 70%;
         margin-top: 30%;
     }
 
     .imagem01 .texto{
-        margin-left: 5%;
+        font-size: 85%;
+        width: 100%;
+        margin-left: 3%;
     }
 
     .imagem01 .oportunidade{
         margin-top: 35%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
 
     .imagem01 .valor{
         margin-top: 40%;
-        margin-left: 13%;
+        margin-left: 22%;
     }
 
     .imagem01 .valor2{
         margin-top: 42%;
-        margin-left: 5%;
+        margin-left: 14%;
     }
 
     .print{
-        margin-top: 70%;
+        margin-top: 75%;
+        margin-left: 15%;
     }
 
     .print p{
-        width: 90%;
+        width: 110%;
         font-size: 90%;
-        margin-left: 5.5%;
         margin-bottom: 2%;
+        padding-left: 4%;
+        margin-left: -2%;
     }
 
     .print .imagem1{
@@ -410,18 +412,49 @@ body{
 
     .QuemEu h1{
         font-size: 130%;
-        margin-left: 9%;
+        margin-left: 16%;
     }
 
     .QuemEu img{
         width: 80%;
-        margin-left: 10%;
+        margin-left: 17%;
         margin-bottom: 35%;
     }
 
     .QuemEu p{
         font-size: 110%;
-        margin-left: 15%;
-        width: 100%;
+        margin-left: 22%;
+        width: 80%;
     };
+
+    .perguntas h2{
+        font-size: 90%;
+        margin-left: -10%;
+    }
+
+    .pergEres {
+        width: 90%;
+        margin-left: 12%;
+    }
+
+    .final img{
+        width: 70%;
+        margin-top: 17%;
+        margin-left: 25%;
+    }
+
+
+    .botao h1{
+        width: 90%;
+        font-size: 110%;
+        margin-left: 13%;
+    }
+
+    .botao p{
+        font-size: 65%;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
 }
