@@ -278,3 +278,100 @@ body{
     margin-top: 2%;
     margin-bottom: 4%;
 }
+
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .descVideo {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .imagem01 .main-image {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .imagem01 .logo {
+        width: 40%;
+        left: 10%;
+        top: 20%;
+    }
+    .imagem01 h1 {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .imagem01 p {
+        left: 10%;
+        font-size: 18px;
+    }
+}
+
+/* Estilos para telas menores (telefones) */
+@media screen and (max-width: 480px) {
+    .logo img {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .video-wrapper video{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .descVideo {
+        width: 85%;
+        margin-left: 9%;
+        font-size: 14px;
+        margin-top: 2%;
+        margin-bottom: 15%;
+    }
+
+    .imagem01 .main-image {
+        width: 70%;
+        margin-left: 30%;
+        margin-top: -5%;
+    }
+
+    .imagem01 .logo {
+        width: 50%;
+        left: 0%;
+        top: 50%;
+    }
+
+
+    .imagem01 h1 {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 18px;
+        margin-top: 50%;
+    }
+
+    .imagem01 p {
+        left: 5%;
+        font-size: 16px;
+        margin-top: 30%;
+    }
+
+    .imagem01 .texto{
+        margin-left: 5%;
+    }
+
+    .imagem01 .oportunidade{
+        margin-top: 35%;
+    }
+
+    .imagem01 .valor{
+        margin-top: 40%;
+    }
+
+    .imagem01 .valor2{
+        margin-top: 42%;
+    }
+
+    .print{
+        margin-top: 60%;
+    }
+}
