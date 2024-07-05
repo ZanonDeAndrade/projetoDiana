@@ -320,6 +320,10 @@ body{
         margin-left: 7.5%;
     }
 
+    .play-button{
+        display: none;
+    }
+
     .descVideo {
         width: 100%;
         margin-left: 9%;
@@ -342,10 +346,10 @@ body{
 
 
     .imagem01 h1 {
-        width: 90%;
+        width: 100%;
         padding: 2%;
         padding-left: 6%;
-        margin-left: 13%;
+        margin-left: 10%;
         font-size: 18px;
         margin-top: 50%;
     }
@@ -358,7 +362,7 @@ body{
     .imagem01 .texto{
         font-size: 85%;
         width: 100%;
-        margin-left: 3%;
+        margin-left: -1%;
     }
 
     .imagem01 .oportunidade{
@@ -385,7 +389,6 @@ body{
         width: 115%;
         font-size: 85%;
         margin-bottom: 2%;
-        padding-left: 8%;
         margin-left: -2%;
     }
 
@@ -416,7 +419,8 @@ body{
 
     .QuemEu h1{
         font-size: 130%;
-        margin-left: 16%;
+        margin-left: 14%;
+        width: 80%;
     }
 
     .QuemEu img{
@@ -433,7 +437,7 @@ body{
 
     .perguntas h2{
         font-size: 90%;
-        margin-left: -10%;
+        margin-left: -18%;
     }
 
     .pergEres {
